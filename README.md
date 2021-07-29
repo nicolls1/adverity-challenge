@@ -35,11 +35,9 @@ button and just have the graph automatically update when the filters change.
 
 I chose to use Chakra UI and React Query out of comfort even though they are a
 bit overkill for such a tiny app. I see Chakra UI's theming as its main
-advantage and I didn't focus on UI (as it was requested not to). In addition,
-the theming is also very powerful when you would like to reuse components and
-this is just a one off implementation. React Query takes care of all of the
-chores around fetching and caching data and is only used in a limited capacity
-since we only are fetching one thing.
+advantage and I didn't focus on UI (as it was requested not to). React Query
+takes care of all of the chores around fetching and caching data and is only
+used in a limited capacity since we only are fetching one thing.
 
 ## Improvements
 
@@ -48,3 +46,5 @@ is filtered correctly. Also, I'm a big fan of storybook and doing visual diffs
 but I didn't have time to get into that. I open sourced a color trivia game that
 I've been toying with a bit here: https://github.com/nicolls1/color-game and it
 uses Storybook.
+
+I'm sure I've left some details out so happy to chat more!
