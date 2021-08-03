@@ -23,6 +23,7 @@ yarn test
 - React Query: Adds all of the peripherals around fetching remote data
 - Papa Parse: Fetch and parse the CSV file
 - Recharts: showing a chart from the relevant data
+- React Select: for the selection drop down, no need to reinvent the wheel
 
 ## Overview
 
